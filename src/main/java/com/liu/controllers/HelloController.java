@@ -10,6 +10,7 @@ public class HelloController {
 	@RequestMapping(value = {"","/hello"})
 	@ResponseBody
 	public String hello() {
+		
 		return "hello jenkins 工程2";
 	}
 }
