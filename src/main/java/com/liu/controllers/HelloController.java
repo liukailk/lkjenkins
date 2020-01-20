@@ -14,6 +14,6 @@ public class HelloController {
 	@ResponseBody
 	public String hello() {  
 		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-		return "hello jenkins 工程2" + sdf.format(new Date());
+		return "hello jenkins 工程3" + sdf.format(new Date());
 	}
 } 
